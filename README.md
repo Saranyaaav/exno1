@@ -1,4 +1,4 @@
-<img width="929" height="398" alt="image" src="https://github.com/user-attachments/assets/10ea53eb-138b-4215-ac0e-8336c353188f" /># Exno:1
+# Exno:1
 Data Cleaning Process
 
 # AIM
@@ -156,6 +156,43 @@ num.fillna(2)
 ```
 <img width="929" height="398" alt="image" src="https://github.com/user-attachments/assets/74661dd4-bbdc-4200-9cda-7736e141b92e" />
 
+```
+num.fillna(method='ffill')
+```
+<img width="1380" height="423" alt="image" src="https://github.com/user-attachments/assets/b12959e2-fa50-439f-92fe-cf10a284989a" />
+
+```
+num.fillna(method='bfill')
+```
+<img width="1402" height="424" alt="image" src="https://github.com/user-attachments/assets/aefe1600-29e1-471e-ae40-2bcf0cd6b642" />
+
+```
+import seaborn as sns
+```
+```
+sns.boxplot(x='sepal_width',data=num)
+```
+<img width="530" height="425" alt="image" src="https://github.com/user-attachments/assets/5374da47-66ed-419e-9c9a-f315d4f569b7" />
+
+```
+Q1 =num.sepal_width.quantile(0.25)
+Q3 = num.sepal_width.quantile(0.75)
+(IQR)=Q3-Q1
+print(IQR)
+```
+<img width="966" height="20" alt="image" src="https://github.com/user-attachments/assets/a5d5a4ec-c0b0-423f-93ff-b29fd9dac67e" />
+
+```
+ran = num[((num.sepal_width<(Q1-1.5*IQR))|(num.sepal_width>(Q3+1.5*IQR)))]
+ran['sepal_width']
+```
+<img width="711" height="193" alt="image" src="https://github.com/user-attachments/assets/102fba93-6c66-4938-869a-b30edb534a0f" />
+
+```
+ran = num[~((num.sepal_width<(Q1-1.5*IQR))|(num.sepal_width>(Q3+1.5*IQR)))]
+ran['sepal_width']
+```
+<img width="309" height="422" alt="image" src="https://github.com/user-attachments/assets/eb4246c9-5d0d-457c-9be8-fb09ab981ec5" />
 
 # Result
 Thus, the program is executed successfully.
