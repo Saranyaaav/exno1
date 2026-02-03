@@ -24,17 +24,26 @@ STEP 6: Use zscore of to remove outliers
 ```
 import pandas as pd
 ```
-
+```
 science = pd.read_csv("/content/SAMPLEIDS.csv")
 science
+```
 <img width="1315" height="697" alt="image" src="https://github.com/user-attachments/assets/f56e9277-c5d6-49cd-a70d-1a9090e5aef9" />
+```
 science.head()
+```
 <img width="954" height="211" alt="image" src="https://github.com/user-attachments/assets/10816be4-576d-42ab-a08e-5357d0f518fd" />
+```
 science.tail()
+```
 <img width="1206" height="205" alt="image" src="https://github.com/user-attachments/assets/4c6bfe5a-479e-4da7-82d0-c3f8e653d598" />
+```
 science.info()
+```
 <img width="659" height="344" alt="image" src="https://github.com/user-attachments/assets/4871907a-d2e9-48a3-8ec8-83982ff870cc" />
+```
 science.describe()
+```
 <img width="1022" height="296" alt="image" src="https://github.com/user-attachments/assets/75139492-4985-47dd-9226-e74e9dceb078" />
 science.isnull()
 <img width="978" height="664" alt="image" src="https://github.com/user-attachments/assets/e8cbcd8e-2194-47e4-9d7b-48ff8efd313d" />
