@@ -29,6 +29,7 @@ science = pd.read_csv("/content/SAMPLEIDS.csv")
 science
 ```
 <img width="1315" height="697" alt="image" src="https://github.com/user-attachments/assets/f56e9277-c5d6-49cd-a70d-1a9090e5aef9" />
+
 ```
 science.head()
 ```
