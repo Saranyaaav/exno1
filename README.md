@@ -1,4 +1,4 @@
-# Exno:1
+<img width="929" height="398" alt="image" src="https://github.com/user-attachments/assets/10ea53eb-138b-4215-ac0e-8336c353188f" /># Exno:1
 Data Cleaning Process
 
 # AIM
@@ -79,32 +79,83 @@ science.dropna()
 science.dropna(axis=1)
 ```
 <img width="363" height="658" alt="image" src="https://github.com/user-attachments/assets/4e2337a8-3eef-4b3a-b2ff-ffa5265bf191" />
+
+```
 science.fillna(5)
+```
 <img width="945" height="657" alt="image" src="https://github.com/user-attachments/assets/4805ba61-cd37-4777-9897-0cee40615525" />
+
+```
 science.fillna(method='ffill')
+```
 <img width="1282" height="683" alt="image" src="https://github.com/user-attachments/assets/a8269a05-2b38-4bb3-9a19-6af8b2d84c2d" />
+
+```
 science.fillna(method='bfill')
+```
 <img width="1278" height="684" alt="image" src="https://github.com/user-attachments/assets/dc43cde6-bda7-414a-be9f-455cb7e99810" />
 
+```
 num = pd.read_csv("/content/iris.csv")
 num
+```
 <img width="640" height="383" alt="image" src="https://github.com/user-attachments/assets/ea958124-e400-4e7c-976e-46bc091566af" />
+
+```
 num.head()
+```
 <img width="608" height="186" alt="image" src="https://github.com/user-attachments/assets/960860dd-899e-4aa6-bd1a-343cda681492" />
+
+```
 num.tail()
+```
 <img width="641" height="186" alt="image" src="https://github.com/user-attachments/assets/48e0597b-3624-469e-b26b-a2b9668b5eaa" />
+
+```
 num.info()
+```
 <img width="513" height="200" alt="image" src="https://github.com/user-attachments/assets/00798fbf-06f2-4dd7-8277-f7473e2d5f46" />
+
+```
 num.describe()
+```
 <img width="565" height="276" alt="image" src="https://github.com/user-attachments/assets/af030ed9-6fda-4360-af78-7b0e77b357cf" />
+
+```
 num.isnull().sum()
+```
 <img width="218" height="221" alt="image" src="https://github.com/user-attachments/assets/dcbb1ada-5261-492d-b881-19da637873d0" />
+
+```
 num.isnull()
+```
 <img width="671" height="389" alt="image" src="https://github.com/user-attachments/assets/b7dd3dc1-a50d-4674-99a3-69c3c70ecd6d" />
+
+```
 num.isnull().any()
+```
 <img width="298" height="221" alt="image" src="https://github.com/user-attachments/assets/447118ba-0a3a-4c05-88b9-5722873749ee" />
+
+```
 num.notnull()
+```
 <img width="615" height="393" alt="image" src="https://github.com/user-attachments/assets/7a0f0a28-6eb4-4e31-be0f-28c79aed13db" />
 
+```
+num.dropna()
+```
+<img width="822" height="397" alt="image" src="https://github.com/user-attachments/assets/cc702d40-138a-441c-b0af-6e717acf6177" />
+
+```
+num.dropna(axis=1)
+```
+<img width="741" height="390" alt="image" src="https://github.com/user-attachments/assets/c06fcd8c-58b0-4098-8acf-065e9325641f" />
+
+```
+num.fillna(2)
+```
+<img width="929" height="398" alt="image" src="https://github.com/user-attachments/assets/74661dd4-bbdc-4200-9cda-7736e141b92e" />
+
+
 # Result
-          <<include your Result here>>
+Thus, the program is executed successfully.
