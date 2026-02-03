@@ -34,29 +34,50 @@ science
 science.head()
 ```
 <img width="954" height="211" alt="image" src="https://github.com/user-attachments/assets/10816be4-576d-42ab-a08e-5357d0f518fd" />
+
 ```
 science.tail()
 ```
 <img width="1206" height="205" alt="image" src="https://github.com/user-attachments/assets/4c6bfe5a-479e-4da7-82d0-c3f8e653d598" />
+
 ```
 science.info()
 ```
 <img width="659" height="344" alt="image" src="https://github.com/user-attachments/assets/4871907a-d2e9-48a3-8ec8-83982ff870cc" />
+
 ```
 science.describe()
 ```
 <img width="1022" height="296" alt="image" src="https://github.com/user-attachments/assets/75139492-4985-47dd-9226-e74e9dceb078" />
+
+```
 science.isnull()
+```
 <img width="978" height="664" alt="image" src="https://github.com/user-attachments/assets/e8cbcd8e-2194-47e4-9d7b-48ff8efd313d" />
+
+```
 science.notnull()
+```
 <img width="981" height="668" alt="image" src="https://github.com/user-attachments/assets/b808295d-9592-46b6-b598-89f549bed4b8" />
+
+```
 science.isnull().sum()
+```
 <img width="228" height="421" alt="image" src="https://github.com/user-attachments/assets/d310a2e0-0d91-46f8-a57c-0ff35650feaa" />
+
+```
 science.isnull().any()
+```
 <img width="349" height="425" alt="image" src="https://github.com/user-attachments/assets/6a2a6504-9a12-42cf-a1ef-e1fd64522e9a" />
+
+```
 science.dropna()
+```
 <img width="941" height="422" alt="image" src="https://github.com/user-attachments/assets/21a0dd42-b387-438c-9868-76415097f32c" />
+
+```
 science.dropna(axis=1)
+```
 <img width="363" height="658" alt="image" src="https://github.com/user-attachments/assets/4e2337a8-3eef-4b3a-b2ff-ffa5265bf191" />
 science.fillna(5)
 <img width="945" height="657" alt="image" src="https://github.com/user-attachments/assets/4805ba61-cd37-4777-9897-0cee40615525" />
